@@ -156,6 +156,10 @@ public class BaseClass {
 			Set<String> windowHandles = driver.getWindowHandles();
 			return windowHandles;
 		}
-	
+		public static void jsExecutor()
+		{
+			javaScriptExecutor js=new javaScriptExecutor();
+		}
+		
 
 }
